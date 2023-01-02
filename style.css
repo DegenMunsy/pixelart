@@ -5,30 +5,31 @@
   font-family: "Roboto Mono", monospace;
   }
   body {
-  background-color: #f4c531;
+  background-color: #dfab00;
   }
   
   .wrapper {
-  background-color: #ffffff;
-  width: 80vmin;
+  background-color: #e26600;
+  width: 100vmin;
   position: absolute;
   transform: translate(-50%, -50%);
   top: 50%;
   left: 50%;
   padding: 40px 20px;
-  border-radius: 8px;
+  border-radius: 2px;
   box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.25);
   }
   
   nav {
-    background-color: white;
+    background-color: #e26600;
     position: fixed;
     top: 0;
     left: 0;
     right: 0;
-    border-bottom: 4px solid #f4c531;
-    border-left: 4px solid #f4c531;
-    border-right: 4px solid #f4c531;
+    border-radius: 2px;
+    border-bottom: 4px solid #dfab00;
+    border-left: 4px solid #dfab00;
+    border-right: 4px solid #dfab00;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -65,12 +66,19 @@
   }
   
   button {
-  background-color: #f4c531;
+  background-color: #dfab00;
   border: none;
-  border-radius: 5px;
-  padding: 5px;
+  border-radius: 2px;
+  padding: 10px;
   box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.25);
   }
+
+  button:hover {
+    /* copy and paste the hover styles from your navbar here */
+    background-color: #333;
+    color: #dfab00;
+  }
+  
   
   input[type="color"] {
   -webkit-appearance: none;
